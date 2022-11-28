@@ -1,4 +1,25 @@
 include README.md
-include genet_models/DeepPrime/*
+include genet_models/DeepPrime/DeepPrime_base/*
+include genet_models/DeepPrime/DeepPrime_off/*
+include genet_models/DeepPrime/DP_variant_293T_NRCH_PE2_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_293T_NRCH-PE2max_Opti_220815/*
+include genet_models/DeepPrime/DP_variant_293T_PE2_Conv_220428/*
+include genet_models/DeepPrime/DP_variant_293T_PE2max_epegRNA_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_293T_PE2max_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_293T_PE4max_epegRNA_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_293T_PE4max_Opti_220728/*
+include genet_models/DeepPrime/DP_variant_A549_PE2max_epegRNA_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_A549_PE2max_Opti_221114/*
+include genet_models/DeepPrime/DP_variant_A549_PE4max_epegRNA_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_A549_PE4max_Opti_220728/*
+include genet_models/DeepPrime/DP_variant_DLD1_NRCHPE4max_Opti_220728/*
+include genet_models/DeepPrime/DP_variant_DLD1_PE2max_Opti_221114/*
+include genet_models/DeepPrime/DP_variant_DLD1_PE4max_Opti_220728/*
+include genet_models/DeepPrime/DP_variant_HCT116_PE2_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_HeLa_PE2max_Opti_220815/*
+include genet_models/DeepPrime/DP_variant_MDA_PE2_Opti_220428/*
+include genet_models/DeepPrime/DP_variant_NIH_NRCHPE4max_Opti_220815/*
+
+
 include genet_models/DeepSpCas9/*
 
