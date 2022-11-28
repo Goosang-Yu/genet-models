@@ -1,15 +1,28 @@
 import os, sys, glob
 import inspect
 
-from genet_models import DeepPrime
+from genet_models import DeepPrime, DeepSpCas9
 
 '''
 Model finder repo
 Get your models from here!
 '''
 
+def load_deepspcas9():
+    '''
+    Load DeepSpCas9 model
+    
 
-def load_genet_model(model_id='PE2', cell_type='HEK293T'):
+    '''
+
+    print('get model: DeepSpCas9')
+
+    model_dir = inspect.getfile(DeepSpCas9).replace('/__init__.py', '').replace('\\__init__.py', '')
+
+    return model_dir
+
+
+def load_deepprime(model_id='PE2', cell_type='HEK293T'):
     '''
     model_id: PE2, PE2max, PE4max, PE2max-e, PE4max-e, NRCH_PE2, NRCH_PE2max, NRCH_PE4max
     cell_rtpe: HEK293T, A549, DLD1, HCT116, HeLa, MDA-MB-231, NIH3T3
