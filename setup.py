@@ -13,7 +13,7 @@ setuptools.setup(
     author          = "Goosang Yu",
     author_email    = "gsyu93@gmail.com",
     description     = "Models for prediction modules in GenET",
-    url             = "https://github.com/Goosang-Yu/genet-models.git",
+    url             = "https://github.com/Goosang-Yu/genet_models.git",
     packages        = setuptools.find_packages(exclude = ['dev_ing', 'dev_ing.*']),
     
     python_requires = ">=3.7",
