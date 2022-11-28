@@ -1,0 +1,3 @@
+include README.md
+include genet-models/DeepPrime_FT/*
+
