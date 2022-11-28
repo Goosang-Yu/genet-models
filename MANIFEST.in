@@ -1,3 +1,4 @@
 include README.md
-include genet-models/DeepPrime_FT/*
+include genet_models/DeepPrime/*
+include genet_models/DeepSpCas9/*
 
