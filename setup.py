@@ -8,12 +8,12 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 VERSION = genet_models.__version__
 
 setuptools.setup(
-    name            = "genet-models",
+    name            = "genet_models",
     version         = VERSION,
     author          = "Goosang Yu",
     author_email    = "gsyu93@gmail.com",
     description     = "Models for prediction modules in GenET",
-    url             = "https://github.com/Goosang-Yu/genet-models",
+    url             = "https://github.com/Goosang-Yu/genet-models.git",
     packages        = setuptools.find_packages(exclude = ['dev_ing', 'dev_ing.*']),
     
     python_requires = ">=3.7",
