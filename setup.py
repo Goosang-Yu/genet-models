@@ -8,7 +8,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 VERSION = genet_models.__version__
 
 setuptools.setup(
-    name            = "genet_models",
+    name            = "genet-models",
     version         = VERSION,
     author          = "Goosang Yu",
     author_email    = "gsyu93@gmail.com",
