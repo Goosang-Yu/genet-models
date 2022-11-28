@@ -27,42 +27,42 @@ def load_model(model_id='PE2', cell_type='HEK293T'):
         
         'HEK293T': {
             'PE2'        : 'DeepPrime_base',
-            'NRCH_PE2'   : 'DeepPrime/DP_variant_293T_NRCH_PE2_Opti_220428',
-            'NRCH_PE2max': 'DeepPrime/DP_variant_293T_NRCH-PE2max_Opti_220815',
-            'PE2max'     : 'DeepPrime/DP_variant_293T_PE2max_Opti_220428',
-            'PE2max-e'   : 'DeepPrime/DP_variant_293T_PE2max_epegRNA_Opti_220428',
-            'PE4max'     : 'DeepPrime/DP_variant_293T_PE4max_Opti_220728',
-            'PE4max-e'   : 'DeepPrime_FP/DP_variant_293T_PE4max_epegRNA_Opti_220428',
+            'NRCH_PE2'   : 'DP_variant_293T_NRCH_PE2_Opti_220428',
+            'NRCH_PE2max': 'DP_variant_293T_NRCH-PE2max_Opti_220815',
+            'PE2max'     : 'DP_variant_293T_PE2max_Opti_220428',
+            'PE2max-e'   : 'DP_variant_293T_PE2max_epegRNA_Opti_220428',
+            'PE4max'     : 'DP_variant_293T_PE4max_Opti_220728',
+            'PE4max-e'   : 'DP_variant_293T_PE4max_epegRNA_Opti_220428',
         },
 
         'A549': {
-            'PE2max'     : 'DeepPrime/DP_variant_A549_PE2max_Opti_221114',
-            'PE2max-e'   : 'DeepPrime/DP_variant_A549_PE2max_epegRNA_Opti_220428',
-            'PE4max'     : 'DeepPrime/DP_variant_A549_PE4max_Opti_220728',
-            'PE4max-e'   : 'DeepPrime/DP_variant_A549_PE4max_epegRNA_Opti_220428',
+            'PE2max'     : 'DP_variant_A549_PE2max_Opti_221114',
+            'PE2max-e'   : 'DP_variant_A549_PE2max_epegRNA_Opti_220428',
+            'PE4max'     : 'DP_variant_A549_PE4max_Opti_220728',
+            'PE4max-e'   : 'DP_variant_A549_PE4max_epegRNA_Opti_220428',
 
         },
         
         'DLD1': {
-            'NRCH_PE4max': 'DeepPrime/DP_variant_DLD1_NRCHPE4max_Opti_220728',
-            'PE2max'     : 'DeepPrime/DP_variant_DLD1_PE2max_Opti_221114',
-            'PE4max'     : 'DeepPrime/DP_variant_DLD1_PE4max_Opti_220728',
+            'NRCH_PE4max': 'DP_variant_DLD1_NRCHPE4max_Opti_220728',
+            'PE2max'     : 'DP_variant_DLD1_PE2max_Opti_221114',
+            'PE4max'     : 'DP_variant_DLD1_PE4max_Opti_220728',
         },
 
         'HCT116': {
-            'PE2'        : 'DeepPrime/DP_variant_HCT116_PE2_Opti_220428',
+            'PE2'        : 'DP_variant_HCT116_PE2_Opti_220428',
         },
         
         'HeLa': {
-            'PE2max'     : 'DeepPrime/DP_variant_HeLa_PE2max_Opti_220815',
+            'PE2max'     : 'DP_variant_HeLa_PE2max_Opti_220815',
         },
         
         'MDA-MB-231': {
-            'PE2'        : 'DeepPrime/DP_variant_MDA_PE2_Opti_220428',
+            'PE2'        : 'DP_variant_MDA_PE2_Opti_220428',
         },
         
         'NIH3T3': {
-            'NRCH_PE4max': 'DeepPrime/DP_variant_NIH_NRCHPE4max_Opti_220815',
+            'NRCH_PE4max': 'DP_variant_NIH_NRCHPE4max_Opti_220815',
         },
 
     }
